@@ -1,0 +1,43 @@
+*{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+button{
+    background-color: rgb(29, 141, 141);
+    color:white;
+    padding: 10px;
+    border: 0;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 5px;
+    
+}
+
+.container{
+    background-color:white;
+    position: absolute;
+}
+
+.header{
+    position: relative;
+    height: 40px;
+    background-color: rgb(29, 141, 141);
+}
+
+.header h3{
+    color: antiquewhite;
+    padding-top: 8px;
+}
+
+form{
+    stroke: none;
+}
+
+button:hover{
+    background-color: white;
+    stroke: rgb(29, 141, 141);
+    stroke-width: 12px;
+    color: rgb(29, 141, 141);
+}
